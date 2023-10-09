@@ -11,6 +11,10 @@ namespace videojuego
         static void Main(string[] args)
         {
             Console.WriteLine("Hola mundo");
+            Console.WriteLine("dime tu edad");
+            int edad = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Tu edad es " + edad);
         }
     }
 }
