@@ -15,6 +15,7 @@ namespace videojuego
             int edad = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Tu edad es " + edad);
+            Console.WriteLine("Real Madrid");
         }
     }
 }
